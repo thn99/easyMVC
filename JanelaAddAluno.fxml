@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="199.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerJanelaAddAluno">
+   <children>
+      <Button fx:id="btnSave" layoutX="309.0" layoutY="121.0" mnemonicParsing="false" onAction="#save" text="SAVE" />
+      <TextField fx:id="txtName" layoutX="113.0" layoutY="61.0" promptText="Name" />
+      <TextField fx:id="txtAge" layoutX="113.0" layoutY="121.0" promptText="Age" />
+   </children>
+</AnchorPane>
